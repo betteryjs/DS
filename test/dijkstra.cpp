@@ -34,9 +34,13 @@ int dijkstra() {
         }
         // t 得到的是到原点距离最小的元素
         st[t] = true;
+        fprintf(stdout,"%d add in set \n" ,t);
+
         //依次更新每个点所到相邻的点路径值
         for (int j = 1; j <= n; ++j) {
             dist[j] = min(dist[j], dist[t] + g[t][j]);
+            fprintf(stdout,"dist [%d] is %d \n" ,j,dist[j]);
+
         }
 
 
@@ -55,8 +59,9 @@ int main()
 {
     cin>>n>>m;
 
+
     memset(g,0x3f,sizeof g);    //初始化图 因为是求最短路径
-    //所以每个点初始为无限大
+    // 所以每个点初始为无限大
 
     while(m--)
     {
