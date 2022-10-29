@@ -77,10 +77,10 @@ public:
     void minHeapify(vector<int> &arr, int i, int heapSize) {
         while (2*i+1<=heapSize){
             int leftChild=(2*i)+1,rightChild=(2*i)+2,target=leftChild;
-            if(rightChild <=heapSize && arr[rightChild]> arr[leftChild]){
+            if(rightChild <=heapSize && arr[rightChild]< arr[leftChild]){
                 target=rightChild;
             }
-            if(arr[target] > arr[i]){
+            if(arr[target] < arr[i]){
                 swap(arr[target],arr[i]);
             }else{
                 break;

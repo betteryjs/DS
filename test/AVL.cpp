@@ -203,7 +203,6 @@ AVLNode<Key> * Delete(AVLNode<Key> * root, Key key)
         root->right = Delete(root->right, key);
 
     // AVL 删除后还是AVL树 不用进行 LL RRF LR RL
-
 //    root->height = std::max(getHeight(root->left), getHeight(root->right)) + 1;
 //    if(getHeight(root->right) - getHeight(root->left) == 2)
 //    {
