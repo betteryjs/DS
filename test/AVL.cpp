@@ -139,24 +139,28 @@ AVLNode<Key> * Insert(AVLNode<Key> * root, int key)
     {
         // 操作root的左孩子
         if(key < root->left->key)
+            // 左孩子的左子树添加了节点 LL
             root = LL_Rotate(root);
         else
+            // 左孩子的右子树添加了节点 LR
             root = LR_Rotate(root);
     }
     else if(getHeight(root->right) - getHeight(root->left) == 2)
     {
         // 操作root的右孩子
         if(key < root->right->key)
-            // 右孩子的左子树
+            // 右孩子的左子树添加了节点 RL
             root = RL_Rotate(root);
         else
-            // 操作右孩子的右子树
+            // 操作右孩子的右子树添加了节点 RR
             root = RR_Rotate(root);
     }
     return root;
 }
 
 
+
+// delete 就是BST的Delete
 template<class Key>
 AVLNode<Key> * Delete(AVLNode<Key> * root, Key key)
 {
@@ -169,20 +173,27 @@ AVLNode<Key> * Delete(AVLNode<Key> * root, Key key)
             AVLNode<Key> * temp = root;
             root = root->left;
             delete(temp);
+            // delete root 后 return  root->left
             return root;
+
         }else if(root->left== nullptr){
             AVLNode<Key> * temp = root;
             root = root->right;
             delete(temp);
+            // delete root 后 return  root->right
             return root;
         }
         else{
             // root's left and right all exists
+
+            // 找右子树的最左节点 (右子树的最小节点)
             AVLNode<Key> * temp = root->right;
             while(temp->left!= nullptr) temp = temp->left;
+
             /* replace the value */
             root->key = temp->key;
             /* Delete the node (successor node) that should be really deleted */
+            // 改为删除右子树的最小节点
             root->right = Delete(root->right, temp->key);
         }
     }
@@ -191,21 +202,23 @@ AVLNode<Key> * Delete(AVLNode<Key> * root, Key key)
     else
         root->right = Delete(root->right, key);
 
-    root->height = std::max(getHeight(root->left), getHeight(root->right)) + 1;
-    if(getHeight(root->right) - getHeight(root->left) == 2)
-    {
-        if(getHeight(root->right->right) >= getHeight(root->right->left))
-            root = RR_Rotate(root);
-        else
-            root = RL_Rotate(root);
-    }
-    else if(getHeight(root->left) - getHeight(root->right) == 2)
-    {
-        if(getHeight(root->left->left) >= getHeight(root->left->right))
-            root = LL_Rotate(root);
-        else
-            root = LR_Rotate(root);
-    }
+    // AVL 删除后还是AVL树 不用进行 LL RRF LR RL
+
+//    root->height = std::max(getHeight(root->left), getHeight(root->right)) + 1;
+//    if(getHeight(root->right) - getHeight(root->left) == 2)
+//    {
+//        if(getHeight(root->right->right) >= getHeight(root->right->left))
+//            root = RR_Rotate(root);
+//        else
+//            root = RL_Rotate(root);
+//    }
+//    else if(getHeight(root->left) - getHeight(root->right) == 2)
+//    {
+//        if(getHeight(root->left->left) >= getHeight(root->left->right))
+//            root = LL_Rotate(root);
+//        else
+//            root = LR_Rotate(root);
+//    }
     return root;
 }
 
