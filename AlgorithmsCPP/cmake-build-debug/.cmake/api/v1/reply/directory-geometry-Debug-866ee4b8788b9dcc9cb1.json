@@ -1,0 +1,81 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"geometry/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/geometry",
+			"paths" : 
+			[
+				"geometry/graham_scan_algorithm"
+			],
+			"targetId" : "graham_scan_algorithm::@60d41218eef6b4657a56",
+			"targetIndex" : 95,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/geometry",
+			"paths" : 
+			[
+				"geometry/jarvis_algorithm"
+			],
+			"targetId" : "jarvis_algorithm::@60d41218eef6b4657a56",
+			"targetIndex" : 116,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/geometry",
+			"paths" : 
+			[
+				"geometry/line_segment_intersection"
+			],
+			"targetId" : "line_segment_intersection::@60d41218eef6b4657a56",
+			"targetIndex" : 130,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "geometry",
+		"source" : "geometry"
+	}
+}

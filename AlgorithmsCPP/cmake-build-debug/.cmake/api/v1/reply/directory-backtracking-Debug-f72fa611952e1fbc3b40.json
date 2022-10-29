@@ -1,0 +1,243 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"backtracking/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/graph_coloring"
+			],
+			"targetId" : "graph_coloring::@2c647d1e400f67caf555",
+			"targetIndex" : 97,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/knight_tour"
+			],
+			"targetId" : "knight_tour::@2c647d1e400f67caf555",
+			"targetIndex" : 119,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/magic_sequence"
+			],
+			"targetId" : "magic_sequence::@2c647d1e400f67caf555",
+			"targetIndex" : 141,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/minimax"
+			],
+			"targetId" : "minimax::@2c647d1e400f67caf555",
+			"targetIndex" : 152,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/n_queens"
+			],
+			"targetId" : "n_queens::@2c647d1e400f67caf555",
+			"targetIndex" : 161,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/n_queens_all_solution_optimised"
+			],
+			"targetId" : "n_queens_all_solution_optimised::@2c647d1e400f67caf555",
+			"targetIndex" : 162,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/nqueen_print_all_solutions"
+			],
+			"targetId" : "nqueen_print_all_solutions::@2c647d1e400f67caf555",
+			"targetIndex" : 167,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/rat_maze"
+			],
+			"targetId" : "rat_maze::@2c647d1e400f67caf555",
+			"targetIndex" : 204,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/subarray_sum"
+			],
+			"targetId" : "subarray_sum::@2c647d1e400f67caf555",
+			"targetIndex" : 233,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/subset_sum"
+			],
+			"targetId" : "subset_sum::@2c647d1e400f67caf555",
+			"targetIndex" : 235,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/sudoku_solver"
+			],
+			"targetId" : "sudoku_solver::@2c647d1e400f67caf555",
+			"targetIndex" : 237,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin/backtracking",
+			"paths" : 
+			[
+				"backtracking/wildcard_matching"
+			],
+			"targetId" : "wildcard_matching::@2c647d1e400f67caf555",
+			"targetIndex" : 262,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "backtracking",
+		"source" : "backtracking"
+	}
+}

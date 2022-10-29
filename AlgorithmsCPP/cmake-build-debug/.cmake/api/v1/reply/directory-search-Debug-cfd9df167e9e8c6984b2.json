@@ -1,0 +1,297 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"search/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/binary_search"
+			],
+			"targetId" : "binary_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 17,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/exponential_search"
+			],
+			"targetId" : "exponential_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 73,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/fibonacci_search"
+			],
+			"targetId" : "fibonacci_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 84,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/floyd_cycle_detection_algo"
+			],
+			"targetId" : "floyd_cycle_detection_algo::@b3e4e3481926c17d0075",
+			"targetIndex" : 87,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/hash_search"
+			],
+			"targetId" : "hash_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 101,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/interpolation_search"
+			],
+			"targetId" : "interpolation_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 109,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/interpolation_search2"
+			],
+			"targetId" : "interpolation_search2::@b3e4e3481926c17d0075",
+			"targetIndex" : 110,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/jump_search"
+			],
+			"targetId" : "jump_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 117,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/linear_search"
+			],
+			"targetId" : "linear_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 133,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/median_search"
+			],
+			"targetId" : "median_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 146,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/median_search2"
+			],
+			"targetId" : "median_search2::@b3e4e3481926c17d0075",
+			"targetIndex" : 147,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/saddleback_search"
+			],
+			"targetId" : "saddleback_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 211,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/sublist_search"
+			],
+			"targetId" : "sublist_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 234,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/ternary_search"
+			],
+			"targetId" : "ternary_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 241,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "bin/search",
+			"paths" : 
+			[
+				"search/text_search"
+			],
+			"targetId" : "text_search::@b3e4e3481926c17d0075",
+			"targetIndex" : 245,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "search",
+		"source" : "search"
+	}
+}

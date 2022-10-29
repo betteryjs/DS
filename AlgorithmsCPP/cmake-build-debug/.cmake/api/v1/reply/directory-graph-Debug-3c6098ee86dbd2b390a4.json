@@ -1,0 +1,405 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"graph/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/bidirectional_dijkstra"
+			],
+			"targetId" : "bidirectional_dijkstra::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 14,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/breadth_first_search"
+			],
+			"targetId" : "breadth_first_search::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 27,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/bridge_finding_with_tarjan_algorithm"
+			],
+			"targetId" : "bridge_finding_with_tarjan_algorithm::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/connected_components"
+			],
+			"targetId" : "connected_components::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 45,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/connected_components_with_dsu"
+			],
+			"targetId" : "connected_components_with_dsu::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 46,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/cycle_check_directed_graph"
+			],
+			"targetId" : "cycle_check_directed_graph::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 53,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/depth_first_search"
+			],
+			"targetId" : "depth_first_search::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 58,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/depth_first_search_with_stack"
+			],
+			"targetId" : "depth_first_search_with_stack::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 59,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/dijkstra"
+			],
+			"targetId" : "dijkstra::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 60,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/hamiltons_cycle"
+			],
+			"targetId" : "hamiltons_cycle::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 98,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/hopcroft_karp"
+			],
+			"targetId" : "hopcroft_karp::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 104,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/is_graph_bipartite"
+			],
+			"targetId" : "is_graph_bipartite::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 113,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/is_graph_bipartite2"
+			],
+			"targetId" : "is_graph_bipartite2::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 114,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/kosaraju"
+			],
+			"targetId" : "kosaraju::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 123,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/kruskal"
+			],
+			"targetId" : "kruskal::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 124,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/lowest_common_ancestor"
+			],
+			"targetId" : "lowest_common_ancestor::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 137,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/max_flow_with_ford_fulkerson_and_edmond_karp_algo"
+			],
+			"targetId" : "max_flow_with_ford_fulkerson_and_edmond_karp_algo::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 144,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/prim"
+			],
+			"targetId" : "prim::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 185,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/topological_sort"
+			],
+			"targetId" : "topological_sort::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 247,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/topological_sort_by_kahns_algo"
+			],
+			"targetId" : "topological_sort_by_kahns_algo::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 248,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "bin/graph",
+			"paths" : 
+			[
+				"graph/travelling_salesman_problem"
+			],
+			"targetId" : "travelling_salesman_problem::@24f0212b3bb5eb7e3fe6",
+			"targetIndex" : 250,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "graph",
+		"source" : "graph"
+	}
+}

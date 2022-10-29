@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/CMakeFiles/FREEGLUT-PRJ"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/CMakeFiles/FREEGLUT-PRJ.rule"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/CMakeFiles/FREEGLUT-PRJ-complete.rule"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-build.rule"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-configure.rule"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-download.rule"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-install.rule"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-mkdir.rule"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-patch.rule"
+		},
+		{
+			"file" : "/home/yjs/CPP/DS/AlgorithmsCPP/cmake-build-debug/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"FREEGLUT-PRJ"
+		],
+		"name" : "FREEGLUT-PRJ"
+	}
+}

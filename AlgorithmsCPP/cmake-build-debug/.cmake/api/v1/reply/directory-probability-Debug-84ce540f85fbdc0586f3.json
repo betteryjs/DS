@@ -1,0 +1,135 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"probability/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/probability",
+			"paths" : 
+			[
+				"probability/addition_rule"
+			],
+			"targetId" : "addition_rule::@7d3bb2c8a86dc0193958",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/probability",
+			"paths" : 
+			[
+				"probability/bayes_theorem"
+			],
+			"targetId" : "bayes_theorem::@7d3bb2c8a86dc0193958",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/probability",
+			"paths" : 
+			[
+				"probability/binomial_dist"
+			],
+			"targetId" : "binomial_dist::@7d3bb2c8a86dc0193958",
+			"targetIndex" : 22,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/probability",
+			"paths" : 
+			[
+				"probability/geometric_dist"
+			],
+			"targetId" : "geometric_dist::@7d3bb2c8a86dc0193958",
+			"targetIndex" : 92,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/probability",
+			"paths" : 
+			[
+				"probability/poisson_dist"
+			],
+			"targetId" : "poisson_dist::@7d3bb2c8a86dc0193958",
+			"targetIndex" : 181,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/probability",
+			"paths" : 
+			[
+				"probability/windowed_median"
+			],
+			"targetId" : "windowed_median::@7d3bb2c8a86dc0193958",
+			"targetIndex" : 263,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "probability",
+		"source" : "probability"
+	}
+}

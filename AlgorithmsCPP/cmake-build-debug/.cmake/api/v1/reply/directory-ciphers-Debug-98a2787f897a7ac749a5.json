@@ -1,0 +1,189 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ciphers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/a1z26_cipher"
+			],
+			"targetId" : "a1z26_cipher::@b11776034565ec591e2e",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/atbash_cipher"
+			],
+			"targetId" : "atbash_cipher::@b11776034565ec591e2e",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/base64_encoding"
+			],
+			"targetId" : "base64_encoding::@b11776034565ec591e2e",
+			"targetIndex" : 11,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/caesar_cipher"
+			],
+			"targetId" : "caesar_cipher::@b11776034565ec591e2e",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/elliptic_curve_key_exchange"
+			],
+			"targetId" : "elliptic_curve_key_exchange::@b11776034565ec591e2e",
+			"targetIndex" : 71,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/hill_cipher"
+			],
+			"targetId" : "hill_cipher::@b11776034565ec591e2e",
+			"targetIndex" : 103,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/morse_code"
+			],
+			"targetId" : "morse_code::@b11776034565ec591e2e",
+			"targetIndex" : 158,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/vigenere_cipher"
+			],
+			"targetId" : "vigenere_cipher::@b11776034565ec591e2e",
+			"targetIndex" : 258,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin/ciphers",
+			"paths" : 
+			[
+				"ciphers/xor_cipher"
+			],
+			"targetId" : "xor_cipher::@b11776034565ec591e2e",
+			"targetIndex" : 264,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ciphers",
+		"source" : "ciphers"
+	}
+}

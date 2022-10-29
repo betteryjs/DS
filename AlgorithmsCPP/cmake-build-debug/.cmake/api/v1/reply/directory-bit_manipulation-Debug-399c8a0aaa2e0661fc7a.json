@@ -1,0 +1,117 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"bit_manipulation/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/bit_manipulation",
+			"paths" : 
+			[
+				"bit_manipulation/count_bits_flip"
+			],
+			"targetId" : "count_bits_flip::@31a6a435bc037c9daa44",
+			"targetIndex" : 47,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/bit_manipulation",
+			"paths" : 
+			[
+				"bit_manipulation/count_of_set_bits"
+			],
+			"targetId" : "count_of_set_bits::@31a6a435bc037c9daa44",
+			"targetIndex" : 49,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/bit_manipulation",
+			"paths" : 
+			[
+				"bit_manipulation/count_of_trailing_ciphers_in_factorial_n"
+			],
+			"targetId" : "count_of_trailing_ciphers_in_factorial_n::@31a6a435bc037c9daa44",
+			"targetIndex" : 50,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/bit_manipulation",
+			"paths" : 
+			[
+				"bit_manipulation/hamming_distance"
+			],
+			"targetId" : "hamming_distance::@31a6a435bc037c9daa44",
+			"targetIndex" : 99,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/bit_manipulation",
+			"paths" : 
+			[
+				"bit_manipulation/set_kth_bit"
+			],
+			"targetId" : "set_kth_bit::@31a6a435bc037c9daa44",
+			"targetIndex" : 214,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "bit_manipulation",
+		"source" : "bit_manipulation"
+	}
+}

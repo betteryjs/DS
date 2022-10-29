@@ -1,0 +1,135 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"strings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/strings",
+			"paths" : 
+			[
+				"strings/brute_force_string_searching"
+			],
+			"targetId" : "brute_force_string_searching::@89d0016ae4e25e06fd39",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/strings",
+			"paths" : 
+			[
+				"strings/horspool"
+			],
+			"targetId" : "horspool::@89d0016ae4e25e06fd39",
+			"targetIndex" : 105,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/strings",
+			"paths" : 
+			[
+				"strings/knuth_morris_pratt"
+			],
+			"targetId" : "knuth_morris_pratt::@89d0016ae4e25e06fd39",
+			"targetIndex" : 120,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/strings",
+			"paths" : 
+			[
+				"strings/manacher_algorithm"
+			],
+			"targetId" : "manacher_algorithm::@89d0016ae4e25e06fd39",
+			"targetIndex" : 142,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/strings",
+			"paths" : 
+			[
+				"strings/rabin_karp"
+			],
+			"targetId" : "rabin_karp::@89d0016ae4e25e06fd39",
+			"targetIndex" : 200,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/strings",
+			"paths" : 
+			[
+				"strings/z_function"
+			],
+			"targetId" : "z_function::@89d0016ae4e25e06fd39",
+			"targetIndex" : 265,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "strings",
+		"source" : "strings"
+	}
+}

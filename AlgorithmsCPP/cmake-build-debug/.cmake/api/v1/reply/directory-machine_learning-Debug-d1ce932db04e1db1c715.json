@@ -1,0 +1,135 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"machine_learning/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/machine_learning",
+			"paths" : 
+			[
+				"machine_learning/a_star_search"
+			],
+			"targetId" : "a_star_search::@20359d2a96858d0fc37a",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/machine_learning",
+			"paths" : 
+			[
+				"machine_learning/adaline_learning"
+			],
+			"targetId" : "adaline_learning::@20359d2a96858d0fc37a",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/machine_learning",
+			"paths" : 
+			[
+				"machine_learning/kohonen_som_topology"
+			],
+			"targetId" : "kohonen_som_topology::@20359d2a96858d0fc37a",
+			"targetIndex" : 121,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/machine_learning",
+			"paths" : 
+			[
+				"machine_learning/kohonen_som_trace"
+			],
+			"targetId" : "kohonen_som_trace::@20359d2a96858d0fc37a",
+			"targetIndex" : 122,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/machine_learning",
+			"paths" : 
+			[
+				"machine_learning/neural_network"
+			],
+			"targetId" : "neural_network::@20359d2a96858d0fc37a",
+			"targetIndex" : 164,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/machine_learning",
+			"paths" : 
+			[
+				"machine_learning/ordinary_least_squares_regressor"
+			],
+			"targetId" : "ordinary_least_squares_regressor::@20359d2a96858d0fc37a",
+			"targetIndex" : 174,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "machine_learning",
+		"source" : "machine_learning"
+	}
+}

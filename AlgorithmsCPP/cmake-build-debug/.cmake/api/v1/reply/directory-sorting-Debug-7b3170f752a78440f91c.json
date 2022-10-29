@@ -1,0 +1,747 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"sorting/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/bead_sort"
+			],
+			"targetId" : "bead_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/binary_insertion_sort"
+			],
+			"targetId" : "binary_insertion_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/bitonic_sort"
+			],
+			"targetId" : "bitonic_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 24,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/bogo_sort"
+			],
+			"targetId" : "bogo_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 26,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/bubble_sort"
+			],
+			"targetId" : "bubble_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/bucket_sort"
+			],
+			"targetId" : "bucket_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/cocktail_selection_sort"
+			],
+			"targetId" : "cocktail_selection_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 41,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/comb_sort"
+			],
+			"targetId" : "comb_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/count_inversions"
+			],
+			"targetId" : "count_inversions::@731c94c3589c2bb2a028",
+			"targetIndex" : 48,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/counting_sort"
+			],
+			"targetId" : "counting_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 51,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/counting_sort_string"
+			],
+			"targetId" : "counting_sort_string::@731c94c3589c2bb2a028",
+			"targetIndex" : 52,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/cycle_sort"
+			],
+			"targetId" : "cycle_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 54,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/dnf_sort"
+			],
+			"targetId" : "dnf_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 62,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/gnome_sort"
+			],
+			"targetId" : "gnome_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 93,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/heap_sort"
+			],
+			"targetId" : "heap_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 102,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/insertion_sort"
+			],
+			"targetId" : "insertion_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 106,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/library_sort"
+			],
+			"targetId" : "library_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 129,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/merge_insertion_sort"
+			],
+			"targetId" : "merge_insertion_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 148,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/merge_sort"
+			],
+			"targetId" : "merge_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 149,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/non_recursive_merge_sort"
+			],
+			"targetId" : "non_recursive_merge_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 166,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/numeric_string_sort"
+			],
+			"targetId" : "numeric_string_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 169,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/odd_even_sort"
+			],
+			"targetId" : "odd_even_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 170,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/pancake_sort"
+			],
+			"targetId" : "pancake_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 176,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/pigeonhole_sort"
+			],
+			"targetId" : "pigeonhole_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 180,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/quick_sort"
+			],
+			"targetId" : "quick_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 198,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/quick_sort_3"
+			],
+			"targetId" : "quick_sort_3::@731c94c3589c2bb2a028",
+			"targetIndex" : 199,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/radix_sort"
+			],
+			"targetId" : "radix_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 201,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/radix_sort2"
+			],
+			"targetId" : "radix_sort2::@731c94c3589c2bb2a028",
+			"targetIndex" : 202,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/random_pivot_quick_sort"
+			],
+			"targetId" : "random_pivot_quick_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 203,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/recursive_bubble_sort"
+			],
+			"targetId" : "recursive_bubble_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 207,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/selection_sort_iterative"
+			],
+			"targetId" : "selection_sort_iterative::@731c94c3589c2bb2a028",
+			"targetIndex" : 212,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/selection_sort_recursive"
+			],
+			"targetId" : "selection_sort_recursive::@731c94c3589c2bb2a028",
+			"targetIndex" : 213,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/shell_sort"
+			],
+			"targetId" : "shell_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 216,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/shell_sort2"
+			],
+			"targetId" : "shell_sort2::@731c94c3589c2bb2a028",
+			"targetIndex" : 217,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/slow_sort"
+			],
+			"targetId" : "slow_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 220,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/strand_sort"
+			],
+			"targetId" : "strand_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 231,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/swap_sort"
+			],
+			"targetId" : "swap_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 240,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/tim_sort"
+			],
+			"targetId" : "tim_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 246,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/wave_sort"
+			],
+			"targetId" : "wave_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 260,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "bin/sorting",
+			"paths" : 
+			[
+				"sorting/wiggle_sort"
+			],
+			"targetId" : "wiggle_sort::@731c94c3589c2bb2a028",
+			"targetIndex" : 261,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "sorting",
+		"source" : "sorting"
+	}
+}

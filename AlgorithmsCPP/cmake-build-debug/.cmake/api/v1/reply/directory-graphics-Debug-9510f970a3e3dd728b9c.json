@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"graphics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/graphics",
+			"paths" : 
+			[
+				"graphics/spirograph"
+			],
+			"targetId" : "spirograph::@708b9b26fb9b6631b242",
+			"targetIndex" : 225,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "graphics",
+		"source" : "graphics"
+	}
+}

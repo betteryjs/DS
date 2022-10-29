@@ -1,0 +1,639 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"data_structures/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/avltree"
+			],
+			"targetId" : "avltree::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/binary_search_tree"
+			],
+			"targetId" : "binary_search_tree::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/binary_search_tree2"
+			],
+			"targetId" : "binary_search_tree2::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/binaryheap"
+			],
+			"targetId" : "binaryheap::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/bloom_filter"
+			],
+			"targetId" : "bloom_filter::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 25,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/circular_queue_using_linked_list"
+			],
+			"targetId" : "circular_queue_using_linked_list::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/disjoint_set"
+			],
+			"targetId" : "disjoint_set::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 61,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/doubly_linked_list"
+			],
+			"targetId" : "doubly_linked_list::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 66,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/dsu_path_compression"
+			],
+			"targetId" : "dsu_path_compression::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 67,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/dsu_union_rank"
+			],
+			"targetId" : "dsu_union_rank::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 68,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/linked_list"
+			],
+			"targetId" : "linked_list::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 134,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/linkedlist_implentation_usingarray"
+			],
+			"targetId" : "linkedlist_implentation_usingarray::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 135,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/list_array"
+			],
+			"targetId" : "list_array::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 136,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/morrisinorder"
+			],
+			"targetId" : "morrisinorder::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 157,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/queue_using_array"
+			],
+			"targetId" : "queue_using_array::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 193,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/queue_using_array2"
+			],
+			"targetId" : "queue_using_array2::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 194,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/queue_using_linked_list"
+			],
+			"targetId" : "queue_using_linked_list::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 195,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/queue_using_linkedlist"
+			],
+			"targetId" : "queue_using_linkedlist::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 196,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/queue_using_two_stacks"
+			],
+			"targetId" : "queue_using_two_stacks::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 197,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/rb_tree"
+			],
+			"targetId" : "rb_tree::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 205,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/reverse_a_linked_list"
+			],
+			"targetId" : "reverse_a_linked_list::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 209,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/skip_list"
+			],
+			"targetId" : "skip_list::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 219,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/sparse_table"
+			],
+			"targetId" : "sparse_table::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 223,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/stack_using_array"
+			],
+			"targetId" : "stack_using_array::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 227,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/stack_using_linked_list"
+			],
+			"targetId" : "stack_using_linked_list::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 228,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/stack_using_queue"
+			],
+			"targetId" : "stack_using_queue::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 229,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/test_queue"
+			],
+			"targetId" : "test_queue::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 242,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/test_stack"
+			],
+			"targetId" : "test_stack::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 243,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/test_stack_students"
+			],
+			"targetId" : "test_stack_students::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 244,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/tree"
+			],
+			"targetId" : "tree::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 251,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/tree_234"
+			],
+			"targetId" : "tree_234::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 252,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/trie_modern"
+			],
+			"targetId" : "trie_modern::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 253,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/trie_tree"
+			],
+			"targetId" : "trie_tree::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 254,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "bin/data_structures",
+			"paths" : 
+			[
+				"data_structures/trie_using_hashmap"
+			],
+			"targetId" : "trie_using_hashmap::@279bcb8fb26d85f9b6f1",
+			"targetIndex" : 255,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "data_structures",
+		"source" : "data_structures"
+	}
+}
