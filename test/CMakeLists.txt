@@ -9,3 +9,5 @@
 #target_link_libraries(thrdTash workflow)
 
 add_executable(dijkstra dijkstra.cpp)
+
+add_executable(testavl testavl.cpp)
