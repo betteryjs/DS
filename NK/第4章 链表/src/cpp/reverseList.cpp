@@ -1,5 +1,6 @@
 //
 // Created by yjs on 23-3-4.
+// 反转单向和双向链表
 //
 #include <iostream>
 
@@ -53,12 +54,10 @@ ListNode *reverseListAtoB(ListNode *head, ListNode *end) {
 }
 
 
-
-
-DoubleNode * reverseDoubleList(DoubleNode*  head) {
-    DoubleNode*  pre = nullptr;
-    DoubleNode* nextCur = nullptr;
-    DoubleNode * cur=head;
+DoubleNode *reverseDoubleList(DoubleNode *head) {
+    DoubleNode *pre = nullptr;
+    DoubleNode *nextCur = nullptr;
+    DoubleNode *cur = head;
     while (cur != nullptr) {
         nextCur = cur->next;
         cur->next = pre;
