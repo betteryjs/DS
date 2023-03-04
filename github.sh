@@ -2,5 +2,5 @@
 
 
 git add  .
-git commit -m "fix all"
+git commit -m "*.cpp"
 git push

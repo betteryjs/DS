@@ -37,3 +37,36 @@ bool isPalindrome1(ListNode *head) {
     return true;
 }
 
+// need n/2 extra space
+bool isPalindrome2(ListNode *head) {
+    if (head == nullptr || head->next == nullptr) {
+        return true;
+    }
+
+    // find mid of the list
+    ListNode *fast = head->next;
+    ListNode *slow = head;
+    while (fast != nullptr && slow->next != nullptr) {
+        fast = fast->next->next;
+        slow = slow->next;
+    }
+
+    // slow is the mid of the list
+
+
+    stack <ListNode * > stackLists;
+    // slow 后面的节点入stack
+    while (slow != nullptr) {
+        stackLists.push(slow);
+        slow=slow->next;
+    }
+    while (!stackLists.empty()) {
+        int stackTop =stackLists.top()->val;
+        stackLists.pop();
+        if (head->val != stackTop) {
+            return false;
+        }
+        head = head->next;
+    }
+    return true;
+}
