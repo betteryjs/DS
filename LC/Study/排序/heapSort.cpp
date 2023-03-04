@@ -69,11 +69,6 @@ public:
 
 class Solution2 {
 public:
-
-
-
-
-
     void minHeapify(vector<int> &arr, int i, int heapSize) {
         while (2*i+1<=heapSize){
             int leftChild=(2*i)+1,rightChild=(2*i)+2,target=leftChild;
@@ -88,8 +83,6 @@ public:
             i=target;
         }
     }
-
-
 
 
     void build_heap(vector<int> &arr, int size) {
