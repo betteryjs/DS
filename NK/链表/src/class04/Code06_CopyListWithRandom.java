@@ -34,9 +34,10 @@ public class Code06_CopyListWithRandom {
 		if (head == null) {
 			return null;
 		}
-		Node cur = head;
+ 		Node cur = head;
 		Node next = null;
 		// copy node and link to every node
+		// 1 -  1' -  2 - 2' - 3  - 3'
 		while (cur != null) {
 			next = cur.next;
 			cur.next = new Node(cur.value);
@@ -46,20 +47,28 @@ public class Code06_CopyListWithRandom {
 		cur = head;
 		Node curCopy = null;
 		// set copy node rand
+		// 1 -  1' -  2 - 2' - 3  - 3'
+
 		while (cur != null) {
 			next = cur.next.next;
+
+			// copy
 			curCopy = cur.next;
 			curCopy.rand = cur.rand != null ? cur.rand.next : null;
+
 			cur = next;
 		}
 		Node res = head.next;
 		cur = head;
 		// split
+		// 1 -  1' -  2 - 2' - 3  - 3'
 		while (cur != null) {
 			next = cur.next.next;
+
 			curCopy = cur.next;
 			cur.next = next;
 			curCopy.next = next != null ? next.next : null;
+
 			cur = next;
 		}
 		return res;

@@ -71,8 +71,8 @@ public class Code05_SmallerEqualBigger {
 		Node next = null; // save next node
 		// every node distributed to three lists
 		while (head != null) {
-			next = head.next;
-			head.next = null;
+			next = head.next;  // sava next of the head
+			head.next = null;   // cut the head in the linklist
 			if (head.value < pivot) {
 				if (sH == null) {
 					sH = head;
@@ -100,6 +100,7 @@ public class Code05_SmallerEqualBigger {
 					bT = head;
 				}
 			}
+			// next of the head
 			head = next;
 		}
 		// small and equal reconnect
