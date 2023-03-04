@@ -70,3 +70,52 @@ bool isPalindrome2(ListNode *head) {
     }
     return true;
 }
+
+ListNode *reverseList(ListNode *head) {
+    ListNode *pre = nullptr;
+    ListNode *cur = head;
+    while (cur != nullptr) {
+        ListNode *nextCur = cur->next;
+        cur->next = pre;
+        pre = cur;
+        cur = nextCur;
+    }
+    return pre;
+}
+
+// need O(1) extra space
+ bool isPalindrome3(ListNode *  head) {
+    if (head == nullptr || head->next== nullptr) {
+        return true;
+    }
+    ListNode *fast = head->next;
+    ListNode *slow = head;
+    while (fast != nullptr && slow->next != nullptr) {
+        fast = fast->next->next;
+        slow = slow->next;
+    }
+
+
+
+
+
+    fast = slow->next; // fast -> right part first node
+    slow->next= nullptr;  // mid.next -> null
+    fast= reverseList(fast); // fast  -> save last node
+    ListNode * cur = head;// cur -> left first node
+
+    bool res = true;
+    while (cur != nullptr && fast != nullptr) { // check palindrome
+        if (cur->val != fast->val) {
+            res = false;
+            break;
+        }
+        cur = cur->next; // left to mid
+        fast= fast->next; // right to mid
+    }
+    while (fast->next!= nullptr){
+        fast=fast->next;
+    }
+    slow->next= reverseList(fast);
+    return res;
+}
