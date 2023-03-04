@@ -15,6 +15,7 @@ public class Code05_SmallerEqualBigger {
 		if (head == null) {
 			return head;
 		}
+
 		Node cur = head;
 		int i = 0;
 		while (cur != null) {
@@ -60,10 +61,13 @@ public class Code05_SmallerEqualBigger {
 	public static Node listPartition2(Node head, int pivot) {
 		Node sH = null; // small head
 		Node sT = null; // small tail
+
 		Node eH = null; // equal head
 		Node eT = null; // equal tail
+
 		Node bH = null; // big head
 		Node bT = null; // big tail
+
 		Node next = null; // save next node
 		// every node distributed to three lists
 		while (head != null) {
@@ -74,6 +78,7 @@ public class Code05_SmallerEqualBigger {
 					sH = head;
 					sT = head;
 				} else {
+				 //  尾插法
 					sT.next = head;
 					sT = head;
 				}
@@ -86,6 +91,7 @@ public class Code05_SmallerEqualBigger {
 					eT = head;
 				}
 			} else {
+			// head.value > pivot
 				if (bH == null) {
 					bH = head;
 					bT = head;
@@ -99,12 +105,14 @@ public class Code05_SmallerEqualBigger {
 		// small and equal reconnect
 		if (sT != null) {
 			sT.next = eH;
+			// 链接  ST 和 EH 如果 ET 为null  那末 新合成的链表的尾部是ST
 			eT = eT == null ? sT : eT;
 		}
 		// all reconnect
 		if (eT != null) {
 			eT.next = bH;
 		}
+
 		return sH != null ? sH : eH != null ? eH : bH;
 	}
 
