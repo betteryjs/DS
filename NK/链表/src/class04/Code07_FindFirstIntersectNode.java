@@ -26,25 +26,26 @@ public class Code07_FindFirstIntersectNode {
 		return null;
 	}
 
+    // 找到链表第一个入环节点
 	public static Node getLoopNode(Node head) {
 		if (head == null || head.next == null || head.next.next == null) {
 			return null;
 		}
-		Node n1 = head.next; // n1 -> slow
-		Node n2 = head.next.next; // n2 -> fast
-		while (n1 != n2) {
-			if (n2.next == null || n2.next.next == null) {
+		Node slow = head.next; // slow -> slow
+		Node fast = head.next.next; // fast -> fast
+		while (slow != fast) {
+			if (fast.next == null || fast.next.next == null) {
 				return null;
 			}
-			n2 = n2.next.next;
-			n1 = n1.next;
+			fast = fast.next.next;
+			slow = slow.next;
 		}
-		n2 = head; // n2 -> walk again from head
-		while (n1 != n2) {
-			n1 = n1.next;
-			n2 = n2.next;
+		fast = head; // fast -> walk again from head
+		while (slow != fast) {
+			slow = slow.next;
+			fast = fast.next;
 		}
-		return n1;
+		return slow;
 	}
 
 	public static Node noLoop(Node head1, Node head2) {
