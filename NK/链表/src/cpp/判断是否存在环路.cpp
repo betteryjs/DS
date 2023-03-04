@@ -22,11 +22,13 @@ public:
         // 判断是否存在环路
         while (true){
             if(fast== nullptr || fast->next== nullptr){
+                // 没有环路
                 return nullptr;
             }
             fast=fast->next->next;
             slow=slow->next;
             if(fast==slow){
+                // 存在环路
                 break;
             }
         }
@@ -35,7 +37,7 @@ public:
         // 如果存在，查找环路节点
         fast=head;
 
-        while (fast!=slow  ) {
+        while (fast!=slow) {
             slow = slow->next;
             fast = fast->next;
         }
