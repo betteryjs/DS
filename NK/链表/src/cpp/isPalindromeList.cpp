@@ -85,9 +85,11 @@ ListNode *reverseList(ListNode *head) {
 
 // need O(1) extra space
  bool isPalindrome3(ListNode *  head) {
+
     if (head == nullptr || head->next== nullptr) {
         return true;
     }
+
     ListNode *fast = head->next;
     ListNode *slow = head;
     while (fast != nullptr && slow->next != nullptr) {

@@ -29,6 +29,7 @@ void printCommonPart(ListNode *head1, ListNode *head2) {
         } else if (head1->val > head2->val) {
             head2 = head2->next;
         } else {
+            // head1->val == head2->val
             cout << head1->val << " ";
             head1 = head1->next;
             head2 = head2->next;
