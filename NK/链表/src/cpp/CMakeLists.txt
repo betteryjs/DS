@@ -1,2 +1,3 @@
 #add_executable(unorder_set_test unorder_set_test.cpp)
 add_executable(CopyListWithRandom CopyListWithRandom.cpp)
+add_executable(SmallerEqualBigger SmallerEqualBigger.cpp)
