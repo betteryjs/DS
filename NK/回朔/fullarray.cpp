@@ -21,20 +21,13 @@ vector <vector<int>> permute(vector<int> &nums) {
             if (!on_path[j]) {
                 path[i] = nums[j];
                 on_path[j] = true;
-
                 dfs(i + 1);
                 on_path[j] = false;
-
-
             }
-
         }
-
     };
     dfs(0);
     return res;
-
-
 }
 
 
@@ -44,24 +37,17 @@ vector <vector<int>> permuteAll(vector<int> &nums) {
     vector <vector<int>> res;
     vector<int> path(n);
     function<void(int)> dfs = [&](int i) {
-
         if (i == n) {
             res.push_back(path);
             return;
         }
         for (int j = 0; j < n; ++j) {
             path[i] = nums[j];
-
             dfs(i + 1);
-
-
         }
-
     };
     dfs(0);
     return res;
-
-
 }
 
 
