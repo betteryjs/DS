@@ -39,6 +39,8 @@ public:
 
     // find target
     TreeNode *searchBST(TreeNode *root, int target);
+    TreeNode *searchBST2(TreeNode *root, int target);
+
 
 
     bool isValidBST(TreeNode *root);
@@ -95,7 +97,7 @@ void DoBst::reverseOrderTraverse(TreeNode *root) {
 }
 
 
-// find target
+// find target 递归
 TreeNode *DoBst::searchBST(TreeNode *root, int target) {
     if (root == nullptr) {
         return nullptr;
@@ -109,6 +111,24 @@ TreeNode *DoBst::searchBST(TreeNode *root, int target) {
     }
     return nullptr;
 }
+
+// find target 迭代
+TreeNode *DoBst::searchBST2(TreeNode *root, int target) {
+
+    TreeNode * cur=root;
+    while (cur!= nullptr && target!=cur->val){
+        if(cur->val<target){
+            cur =cur->right;
+        }else{
+            cur=cur->left;
+        }
+    }
+    return cur;
+
+}
+
+
+
 
 
 bool DoBst::isValidBST(TreeNode *root) {
