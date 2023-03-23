@@ -66,6 +66,8 @@ void push_queue(queue *q, KEY_TYPE key) {
 		q->rear = node;
 		
 	} else {
+        // q->rear  == NULL
+        // q->front == NULL
 
 		queue_node *node = (queue_node*)calloc(1, sizeof(queue_node));
 		assert(node);
