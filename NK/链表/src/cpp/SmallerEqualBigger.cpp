@@ -4,6 +4,8 @@
 //
 #include <iostream>
 #include <vector>
+#include <algorithm>
+
 
 
 using namespace std;
@@ -83,6 +85,24 @@ ListNode *listPartition(ListNode *head, int pivot) {
 
 
 }
+
+
+
+void arrPartition(vector<int> &  nodeArr, int pivot) {
+    int small = -1;
+    int big = nodeArr.size();
+    int index = 0;
+    while (index != big) {
+        if (nodeArr[index]< pivot) {
+            swap(nodeArr[++small], nodeArr[index++]);
+        } else if (nodeArr[index] == pivot) {
+            index++;
+        } else {
+            swap(nodeArr[--big], nodeArr[index]);
+        }
+    }
+}
+
 
 
 class BuildList {
@@ -173,5 +193,8 @@ int main() {
     ListNode * res=listPartition(buildList.getHead(), 11);
     BuildList::PrintLinkList(res, "list is : ");
 
+    arrPartition(nums, 11);
+    for_each(nums.begin(), nums.end() , [](auto c){cout << c<< " ";});
+    cout << endl;
 
 }
