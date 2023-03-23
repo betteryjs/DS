@@ -39,8 +39,8 @@ public:
 
     // find target
     TreeNode *searchBST(TreeNode *root, int target);
-    TreeNode *searchBST2(TreeNode *root, int target);
 
+    TreeNode *searchBST2(TreeNode *root, int target);
 
 
     bool isValidBST(TreeNode *root);
@@ -115,12 +115,12 @@ TreeNode *DoBst::searchBST(TreeNode *root, int target) {
 // find target 迭代
 TreeNode *DoBst::searchBST2(TreeNode *root, int target) {
 
-    TreeNode * cur=root;
-    while (cur!= nullptr && target!=cur->val){
-        if(cur->val<target){
-            cur =cur->right;
-        }else{
-            cur=cur->left;
+    TreeNode *cur = root;
+    while (cur != nullptr && target != cur->val) {
+        if (cur->val < target) {
+            cur = cur->right;
+        } else {
+            cur = cur->left;
         }
     }
     return cur;
@@ -128,12 +128,8 @@ TreeNode *DoBst::searchBST2(TreeNode *root, int target) {
 }
 
 
-
-
-
 bool DoBst::isValidBST(TreeNode *root) {
     return isValidBST(root, nullptr, nullptr);
-
 }
 
 
@@ -148,8 +144,8 @@ bool DoBst::isValidBST(TreeNode *root, TreeNode *min, TreeNode *max) {
     // 限定左子树的最大值是 root.val，右子树的最小值是 root.val
     return isValidBST(root->left, min, root) && isValidBST(root->right, root, max);
 
-
 }
+
 
 TreeNode *DoBst::insertIntoBST(TreeNode *root, int val) {
     if (root == nullptr) {
@@ -159,11 +155,8 @@ TreeNode *DoBst::insertIntoBST(TreeNode *root, int val) {
         root->right = insertIntoBST(root->right, val);
     } else if (root->val > val) {
         root->left = insertIntoBST(root->left, val);
-
     }
     return root;
-
-
 }
 
 
@@ -177,14 +170,16 @@ TreeNode *DoBst::getMin(TreeNode *node) {
 TreeNode *DoBst::getMax(TreeNode *node) {
     while (node->right != nullptr) node = node->right;
     return node;
-
 }
+
+
 
 TreeNode *DoBst::deleteNode(TreeNode *root, int key) {
 
     if (root == nullptr) return nullptr;
 
     if (root->val == key) {
+        // find success
         // delete
         if (root->left == nullptr) return root->right;
         if (root->right == nullptr) return root->left;
@@ -192,7 +187,7 @@ TreeNode *DoBst::deleteNode(TreeNode *root, int key) {
         // 处理情况 3
         // 获得右子树最小的节点
         TreeNode *minNode = getMin(root->right);
-        // 删除右子树最小的节点
+        // 从右子树删除最小的节点
         root->right = deleteNode(root->right, minNode->val);
 
         // 用右子树最小的节点替换 root 节点
@@ -214,7 +209,3 @@ TreeNode *DoBst::deleteNode(TreeNode *root, int key) {
 }
 
 
-int main() {
-
-    return 0;
-}
