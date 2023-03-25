@@ -20,7 +20,30 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
-
+ListNode *detectCycle(ListNode *head) {
+    if(head== nullptr || head->next== nullptr || head->next->next== nullptr) {
+        return nullptr;
+    }
+    ListNode* slow=head->next;
+    ListNode* fast=head->next->next;
+    // 判断是否存在环路
+    while (slow!=fast){
+        if(fast->next== nullptr || fast->next->next== nullptr){
+            // 没有环路
+            return nullptr;
+        }
+        fast=fast->next->next;
+        slow=slow->next;
+    }
+    // fast 记录fast=slow时的node节点
+    // 如果存在，查找环路节点
+    fast=head;
+    while (fast!=slow) {
+        slow = slow->next;
+        fast = fast->next;
+    }
+    return fast;
+}
 
 
 ListNode * getCommonNode(ListNode * head1,ListNode * head2){
@@ -56,15 +79,36 @@ ListNode * getCommonNode(ListNode * head1,ListNode * head2){
     }
     return cur1;
 
+}
+
+
+ListNode * getIntersectNode(ListNode * head1,ListNode * head2){
+
+    if (head1 == nullptr || head2 == nullptr) {
+        return nullptr;
+    }
+    ListNode *  loop1 = detectCycle(head1);
+    ListNode *  loop2 = detectCycle(head2);
+    if (loop1 == nullptr && loop2 == nullptr) {
+        return getCommonNode(head1, head2);
+    }
+    if(loop1!= nullptr && loop2!= nullptr){
+
+
+
+    }
 
 
 
 
 
+    return nullptr;
 
 
+}
+
+int main(){
 
 
-
-
+    return 0;
 }
