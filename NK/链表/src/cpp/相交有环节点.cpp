@@ -72,15 +72,15 @@ ListNode * getCommonNode(ListNode * head1,ListNode * head2){
     cur2=cur1==head1 ? head2:head1;
     // cur1 存储 长度长的链表 cur2 存储长度短的链表
     n=abs(n);
+    //  链表1 先走长度的差值
     while (n!=0){
         n--;
         cur1=cur1->next;
     }
-    // cur1 走到第一个相交节点
+    // 然后链表1 链表2 一起走直到 两个链表相交
     while (cur1!=cur2){
         cur1=cur1->next;
         cur2=cur2->next;
-
     }
     return cur1;
 
