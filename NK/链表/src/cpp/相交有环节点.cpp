@@ -62,16 +62,21 @@ ListNode * getCommonNode(ListNode * head1,ListNode * head2){
         cur2=cur2->next;
     }
     // n 为差值 链表1长度减链表2长度
+    // cur1 和 cur2 都已经走到最末尾了
+    // 如果末尾不相交 那么之前的节点一定不相交
+    // 如果末尾相交 之前一定有节点相交
     if(cur1!=cur2){
         return nullptr;
     }
     cur1=n > 0 ? head1 : head2; //
     cur2=cur1==head1 ? head2:head1;
+    // cur1 存储 长度长的链表 cur2 存储长度短的链表
     n=abs(n);
-    while ( n!=0){
+    while (n!=0){
         n--;
         cur1=cur1->next;
     }
+    // cur1 走到第一个相交节点
     while (cur1!=cur2){
         cur1=cur1->next;
         cur2=cur2->next;
@@ -89,6 +94,7 @@ ListNode * getIntersectNode(ListNode * head1,ListNode * head2){
     }
     ListNode *  loop1 = detectCycle(head1);
     ListNode *  loop2 = detectCycle(head2);
+    // list1 和 list2 都没有环路
     if (loop1 == nullptr && loop2 == nullptr) {
         return getCommonNode(head1, head2);
     }
