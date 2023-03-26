@@ -103,10 +103,7 @@ ListNode * getIntersectNode(ListNode * head1,ListNode * head2){
 
 
     }
-
-
-
-
+    // 一个链表有环另外一个无环 一定不相交
 
     return nullptr;
 
