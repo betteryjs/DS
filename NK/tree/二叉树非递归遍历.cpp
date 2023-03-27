@@ -33,16 +33,17 @@ public:
             return res;
         }
         stack<TreeNode *> stk;
-        TreeNode *node = root;
-        while (!stk.empty() || node != nullptr) {
-            while (node != nullptr) {
-                res.emplace_back(node->val);
-                stk.emplace(node);
-                node = node->left;
-            }
-            node = stk.top();
+        stk.push(root);
+        while (!stk.empty()) {
+            root = stk.top();
             stk.pop();
-            node = node->right;
+            res.push_back(root->val);
+            if(root->right!= nullptr){
+                stk.push(root->right);
+            }
+            if(root->left!= nullptr){
+                stk.push(root->left);
+            }
         }
         return res;
     }
@@ -53,19 +54,20 @@ public:
         stack<TreeNode *> stackToken;
         while (!stackToken.empty() || root != nullptr) {
             while (root != nullptr) {
+                // 当前节点不为空 将当前节点的所有左节点加入到栈中
                 stackToken.push(root);
                 root = root->left;
             }
-
+            // 处理节点
             root = stackToken.top();
             stackToken.pop();
             res.push_back(root->val);
+
+
             root = root->right;
 
         }
         return res;
-
-
     }
 
     // https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/acm-xuan-shou-tu-jie-leetcode-er-cha-shu-q9ep/
@@ -102,6 +104,29 @@ public:
             }
 
 
+        }
+        return res;
+    }
+
+
+
+    vector<int> postorderTraversal2(TreeNode * root){
+        vector<int> res;
+        if(root== nullptr){
+            return res;
+        }
+        stack<TreeNode * > stk;
+        stk.push(root);
+        while (!stk.empty()){
+            root = stk.top();
+            stk.pop();
+            res.insert(res.begin(),root->val);
+            if(root->right!= nullptr){
+                stk.push(root->right);
+            }
+            if(root->left!= nullptr){
+                stk.push(root->left);
+            }
         }
         return res;
     }

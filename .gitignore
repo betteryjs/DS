@@ -174,3 +174,4 @@ cython_debug/
 .idea
 build
 cmake-build-debug
+*.autosave.xopp
