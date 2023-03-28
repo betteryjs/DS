@@ -28,6 +28,7 @@ public:
             if(fast->next== nullptr || fast->next->next== nullptr){
                 // 没有环路
                 return nullptr;
+
             }
             fast=fast->next->next;
             slow=slow->next;

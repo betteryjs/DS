@@ -86,6 +86,18 @@ ListNode * getCommonNode(ListNode * head1,ListNode * head2){
 
 }
 
+ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+    ListNode *A = headA, *B = headB;
+    while (A != B) {
+        A = A != nullptr ? A->next : headB;
+        B = B != nullptr ? B->next : headA;
+    }
+    return A;
+}
+
+
+
+
 
 ListNode * bothLoop(ListNode * head1,ListNode * loop1 , ListNode * head2,ListNode * loop2){
     ListNode * cur1,*cur2;
@@ -96,11 +108,11 @@ ListNode * bothLoop(ListNode * head1,ListNode * loop1 , ListNode * head2,ListNod
         int n = 0;
         while (cur1 != loop1) {
             n++;
-            cur1 = cur1.next;
+            cur1 = cur1->next;
         }
         while (cur2 != loop2) {
             n--;
-            cur2 = cur2.next;
+            cur2 = cur2->next;
         }
         cur1 = n > 0 ? head1 : head2;
         cur2 = cur1 == head1 ? head2 : head1;
