@@ -43,3 +43,56 @@ public:
         return res;
     }
 };
+
+
+
+int widthOfBinaryTree(TreeNode * root){
+    if(root== nullptr) return  0;
+
+    queue<TreeNode * >queue1;
+    queue1.push(root);
+    unordered_map<TreeNode * ,int> levelMap;
+    levelMap[root]=1;
+    int curLevel=1;      // 当前所在的层数
+    int curLevelNodes=0; // 当前level 发现了几个节点
+    int curLevelMax=-1;
+
+
+    while(!queue1.empty()){
+        TreeNode * node=queue1.front();
+        queue1.pop();
+
+        int curNodeLevel=levelMap[node]; // 当前节点所在层
+        if(curNodeLevel==curLevel){
+            curLevelNodes++;
+        }else{
+
+            curLevelMax=max(curLevelMax,curLevelNodes);
+            curLevel++;
+            curLevelNodes=1;
+        }
+
+
+        // print
+
+        if(node->left!= nullptr){
+
+            levelMap[node->left]=curNodeLevel+1;
+            queue1.push(node->left);
+        }
+        if(node->right!= nullptr) {
+            levelMap[node->right]=curNodeLevel+1;
+
+            queue1.push(node->right);
+        }
+
+
+
+
+    }
+    return  curLevelMax;
+
+
+
+
+}

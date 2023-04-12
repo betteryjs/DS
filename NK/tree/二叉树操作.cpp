@@ -46,9 +46,9 @@ public:
     void inOrder(TreeNode *root) {
 
         if (root != nullptr) {
-            preOrder(root->left);
+            inOrder(root->left);
             visit(root);
-            preOrder(root->right);
+            inOrder(root->right);
 
         }
     }
@@ -56,8 +56,8 @@ public:
     void postOrder(TreeNode *root) {
 
         if (root != nullptr) {
-            preOrder(root->left);
-            preOrder(root->right);
+            postOrder(root->left);
+            postOrder(root->right);
             visit(root);
         }
     }
