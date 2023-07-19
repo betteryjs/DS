@@ -35,7 +35,7 @@ public:
                     arr[index++] = k;
 
                 }
-                                    thebuckett.clear();
+                thebuckett.clear();
             }
         }
     }
